@@ -14,13 +14,13 @@ const gravity = 0.2;
 
 const background = new Sprite({
   position: { x: 0, y: 0 },
-  imageSrc: "./../images/background.png",
+  imageSrc: "./images/background.png",
   ctx,
 });
 
 const shop = new Sprite({
   position: { x: 635, y: 159 },
-  imageSrc: "./../images/shop.png",
+  imageSrc: "./images/shop.png",
   scale: 2.5,
   frames: 6,
   ctx,
@@ -29,82 +29,82 @@ const shop = new Sprite({
 export const player = new Fighter({
   id: 0,
   position: { x: 50, y: 100 },
-  imageSrc: "./../images/samuro/Idle.png",
-  soundSrc: "./../sounds/slow-blade.mp3",
+  imageSrc: "./images/samuro/Idle.png",
+  soundSrc: "./sounds/slow-blade.mp3",
   scale: 2.5,
   frames: 8,
   offset: { x: 225, y: 186 },
   sprites: {
     idle: {
-      imageSrc: "./../images/samuro/Idle.png",
+      imageSrc: "./images/samuro/Idle.png",
       frames: 8,
     },
     run: {
-      imageSrc: "./../images/samuro/Run.png",
+      imageSrc: "./images/samuro/Run.png",
       frames: 8,
     },
     jump: {
-      imageSrc: "./../images/samuro/Jump.png",
+      imageSrc: "./images/samuro/Jump.png",
       frames: 2,
     },
     fall: {
-      imageSrc: "./../images/samuro/Fall.png",
+      imageSrc: "./images/samuro/Fall.png",
       frames: 2,
     },
     attack1: {
-      imageSrc: "././../images/samuro/Attack1.png",
+      imageSrc: "././images/samuro/Attack1.png",
       frames: 6,
     },
     attack2: {
-      imageSrc: "./../images/samuro/Attack2.png",
+      imageSrc: "./images/samuro/Attack2.png",
       frames: 6,
     },
     attack3: {
-      imageSrc: "./../images/samuro/Attack1.png",
+      imageSrc: "./images/samuro/Attack1.png",
       frames: 6,
     },
     takeHit: {
-      imageSrc: "./../images/samuro/Take_hit_white_frame.png",
+      imageSrc: "./images/samuro/Take_hit_white_frame.png",
       frames: 4,
     },
     death: {
-      imageSrc: "./../images/samuro/Death.png",
+      imageSrc: "./images/samuro/Death.png",
       frames: 6,
     },
     idleRight: {
-      imageSrc: "./../images/samuro/IdleRight.png",
+      imageSrc: "./images/samuro/IdleRight.png",
       frames: 8,
     },
     runRight: {
-      imageSrc: "./../images/samuro/RunRight.png",
+      imageSrc: "./images/samuro/RunRight.png",
       frames: 8,
     },
     jumpRight: {
-      imageSrc: "./../images/samuro/JumpRight.png",
+      imageSrc: "./images/samuro/JumpRight.png",
       frames: 2,
     },
     fallRight: {
-      imageSrc: "./../images/samuro/FallRight.png",
+      imageSrc: "./images/samuro/FallRight.png",
       frames: 2,
     },
     attack1Right: {
-      imageSrc: "./../images/samuro/Attack1Right.png",
+      imageSrc: "./images/samuro/Attack1Right.png",
       frames: 6,
     },
     attack2Right: {
-      imageSrc: "./../images/samuro/Attack2Right.png",
+      imageSrc: "./images/samuro/Attack2Right.png",
       frames: 6,
     },
     attack3Right: {
-      imageSrc: "./../images/samuro/Attack1Right.png",
+      imageSrc: "./images/samuro/Attack1Right.png",
       frames: 6,
     },
     takeHitRight: {
-      imageSrc: "./../images/samuro/Take_hit_white_frameRight.png",
+      imageSrc: "./images/samuro/Take_hit_white_frameRight.png",
       frames: 4,
     },
     deathRight: {
-      imageSrc: "./../images/samuro/DeathRight.png",
+      imageSrc: "./images/samuro/DeathRight.png",
       frames: 6,
     },
   },
@@ -132,82 +132,82 @@ export const player = new Fighter({
 export const enemy = new Fighter({
   id: 1,
   position: { x: 925, y: 100 },
-  imageSrc: "./../images/storm/Idle.png",
-  soundSrc: "./../sounds/grom.mp3",
+  imageSrc: "./images/storm/Idle.png",
+  soundSrc: "./sounds/grom.mp3",
   scale: 2.5,
   frames: 4,
   offset: { x: 180, y: 133 },
   sprites: {
     idle: {
-      imageSrc: "./../images/storm/Idle.png",
+      imageSrc: "./images/storm/Idle.png",
       frames: 10,
     },
     run: {
-      imageSrc: "./../images/storm/Run.png",
+      imageSrc: "./images/storm/Run.png",
       frames: 8,
     },
     jump: {
-      imageSrc: "./../images/storm/Jump.png",
+      imageSrc: "./images/storm/Jump.png",
       frames: 3,
     },
     fall: {
-      imageSrc: "./../images/storm/Fall.png",
+      imageSrc: "./images/storm/Fall.png",
       frames: 3,
     },
     attack1: {
-      imageSrc: "./../images/storm/Attack1.png",
+      imageSrc: "./images/storm/Attack1.png",
       frames: 7,
     },
     attack2: {
-      imageSrc: "./../images/storm/Attack2.png",
+      imageSrc: "./images/storm/Attack2.png",
       frames: 7,
     },
     attack3: {
-      imageSrc: "./../images/storm/Attack3.png",
+      imageSrc: "./images/storm/Attack3.png",
       frames: 8,
     },
     takeHit: {
-      imageSrc: "./../images/storm/TakeHit_with_white_frame.png",
+      imageSrc: "./images/storm/TakeHit_with_white_frame.png",
       frames: 3,
     },
     death: {
-      imageSrc: "./../images/storm/Death.png",
+      imageSrc: "./images/storm/Death.png",
       frames: 7,
     },
     idleRight: {
-      imageSrc: "./../images/storm/IdleRight.png",
+      imageSrc: "./images/storm/IdleRight.png",
       frames: 10,
     },
     runRight: {
-      imageSrc: "./../images/storm/RunRight.png",
+      imageSrc: "./images/storm/RunRight.png",
       frames: 8,
     },
     jumpRight: {
-      imageSrc: "./../images/storm/JumpRight.png",
+      imageSrc: "./images/storm/JumpRight.png",
       frames: 3,
     },
     fallRight: {
-      imageSrc: "./../images/storm/FallRight.png",
+      imageSrc: "./images/storm/FallRight.png",
       frames: 3,
     },
     attack1Right: {
-      imageSrc: "./../images/storm/Attack1Right.png",
+      imageSrc: "./images/storm/Attack1Right.png",
       frames: 7,
     },
     attack2Right: {
-      imageSrc: "./../images/storm/Attack2Right.png",
+      imageSrc: "./images/storm/Attack2Right.png",
       frames: 7,
     },
     attack3Right: {
-      imageSrc: "./../images/storm/Attack3Right.png",
+      imageSrc: "./images/storm/Attack3Right.png",
       frames: 8,
     },
     takeHitRight: {
-      imageSrc: "./../images/storm/TakeHit_with_white_frameRight.png",
+      imageSrc: "./images/storm/TakeHit_with_white_frameRight.png",
       frames: 3,
     },
     deathRight: {
-      imageSrc: "./../images/storm/DeathRight.png",
+      imageSrc: "./images/storm/DeathRight.png",
       frames: 7,
     },
   },
