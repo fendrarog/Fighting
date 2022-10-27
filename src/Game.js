@@ -110,13 +110,13 @@ export const player = new Fighter({
   },
   sounds: {
     attack: {
-      soundSrc: "../sounds/slow-blade.mp3",
+      soundSrc: "./sounds/slow-blade.mp3",
     },
     run: {
-      soundSrc: "../sounds/run.mp3",
+      soundSrc: "./sounds/run.mp3",
     },
     jump: {
-      soundSrc: "../sounds/jump.mp3",
+      soundSrc: "./sounds/jump.mp3",
     },
   },
   attackBox: { width: 170, height: 50, offset: { x: 25, y: 25 } },
@@ -213,13 +213,13 @@ export const enemy = new Fighter({
   },
   sounds: {
     attack: {
-      soundSrc: "../sounds/grom.mp3",
+      soundSrc: "./sounds/grom.mp3",
     },
     run: {
-      soundSrc: "../sounds/run.mp3",
+      soundSrc: "./sounds/run.mp3",
     },
     jump: {
-      soundSrc: "../sounds/jump.mp3",
+      soundSrc: "./sounds/jump.mp3",
     },
   },
   attackBox: { width: 110, height: 50, offset: { x: 10, y: 25 } },
