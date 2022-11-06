@@ -149,7 +149,7 @@ export class Fighter extends Sprite {
     character.audio.play();
 
     this.switchAudio("scream");
-    this.audio.volume = 1;
+    this.audio.volume = 0.6;
     this.stopAudio();
     this.audio.play();
 
