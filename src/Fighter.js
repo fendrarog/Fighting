@@ -143,6 +143,16 @@ export class Fighter extends Sprite {
   }
 
   takeHit({ character }) {
+    character.switchAudio("hit");
+    character.audio.volume = 0.5;
+    character.stopAudio();
+    character.audio.play();
+
+    this.switchAudio("scream");
+    this.audio.volume = 1;
+    this.stopAudio();
+    this.audio.play();
+
     this.health -= character.damage;
 
     dinamicHealthBar({ character: this });
@@ -175,6 +185,16 @@ export class Fighter extends Sprite {
       case "jump":
         if (this.audio !== this.sounds.jump.audio) {
           this.audio = this.sounds.jump.audio;
+        }
+        break;
+      case "hit":
+        if (this.audio !== this.sounds.hit.audio) {
+          this.audio = this.sounds.hit.audio;
+        }
+        break;
+      case "scream":
+        if (this.audio !== this.sounds.scream.audio) {
+          this.audio = this.sounds.scream.audio;
         }
         break;
     }

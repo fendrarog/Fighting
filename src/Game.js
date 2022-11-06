@@ -118,6 +118,12 @@ export const player = new Fighter({
     jump: {
       soundSrc: "./sounds/jump.mp3",
     },
+    hit: {
+      soundSrc: "./sounds/blade-hit4.mp3",
+    },
+    scream: {
+      soundSrc: "./sounds/scream.mp3",
+    },
   },
   attackBox: { width: 170, height: 50, offset: { x: 25, y: 25 } },
   attackSpeed: 1.4,
@@ -220,6 +226,12 @@ export const enemy = new Fighter({
     },
     jump: {
       soundSrc: "./sounds/jump.mp3",
+    },
+    hit: {
+      soundSrc: "./sounds/electro-hit.mp3",
+    },
+    scream: {
+      soundSrc: "./sounds/scream.mp3",
     },
   },
   attackBox: { width: 110, height: 50, offset: { x: 10, y: 25 } },
